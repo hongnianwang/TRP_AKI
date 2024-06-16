@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "min_length": 2,
+    "max_length": 4,
+    "stride": 1,
+    "standardize": false,
+    "p_tarone": 1.2168820121214635825806562402283e-06,
+    "version": "unknown"
+  },
+  "shapelets": [
+  {
+    "p_val": 3.5974471730747161226706717679468e-08,
+    "threshold": 0,
+    "table": [96,64,47,113],
+    "index": 6,
+    "start": 5,
+    "shapelet": [
+      2,3    ]
+  },
+  {
+    "p_val": 1.3850336012263609475656495143415e-07,
+    "threshold": 1,
+    "table": [98,62,51,109],
+    "index": 212,
+    "start": 4,
+    "shapelet": [
+      1,3    ]
+  }  ]
+}

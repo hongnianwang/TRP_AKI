@@ -24,9 +24,9 @@ sudo dpkg -i s3m-1.0.0-alpha.deb
 
 ## Dataset
 
-The clinical data used in this study, derived from the HERON dataset, is de-identified and subject to privacy restrictions. Access requires institutional IRB and ethical approvals.
+The clinical data used in this study, derived from the Healthcare Enterprise Resource for Ontological Narration (HERON) dataset, is de-identified and subject to privacy restrictions. Access requires institutional IRB and ethical approvals.
 
-A sample dataset is provided at `/data/synthetic/`. This dataset has a time series with one feature. It is formatted as `m x (t + 1)`, where `m` is the number of samples and `t` is the number of timestamps. The first column shows the label.
+A sample dataset is provided at `/data/synthetic/`. This dataset has a time series with one feature. It is formatted as `m x (t + 1)`, where `m` is the number of samples and `t` is the number of timestamps. The first column shows the label, hence the `+1`.
 
 ## Usage
 
